@@ -64,6 +64,14 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "myApi",
+        "description": "myApi",
+        "isExtraImport": true,
+        "detail": "myApi",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -93,6 +101,22 @@
         "description": "django.contrib.auth.models",
         "isExtraImport": true,
         "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -152,6 +176,14 @@
         "documentation": {}
     },
     {
+        "label": "DATABASES",
+        "importPath": "profiles.settings",
+        "description": "profiles.settings",
+        "isExtraImport": true,
+        "detail": "profiles.settings",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -166,6 +198,192 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "models",
+        "description": "models",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -231,6 +449,15 @@
         "documentation": {}
     },
     {
+        "label": "HelloSerializer",
+        "kind": 6,
+        "importPath": "myApi.serializers",
+        "description": "myApi.serializers",
+        "peekOfCode": "class HelloSerializer(serializers.Serializer):\n    name = serializers.CharField(max_length = 10)",
+        "detail": "myApi.serializers",
+        "documentation": {}
+    },
+    {
         "label": "urlpatterns",
         "kind": 5,
         "importPath": "myApi.urls",
@@ -244,7 +471,7 @@
         "kind": 6,
         "importPath": "myApi.views",
         "description": "myApi.views",
-        "peekOfCode": "class HelloApiView(APIView):\n    def get(self, request, format=None):\n        response_obj = ['hello', 'how you', 'what']\n        return Response({'message' : 'Success', 'obj' : response_obj})",
+        "peekOfCode": "class HelloApiView(APIView):\n    serializer_class = serializers.HelloSerializer\n    def get(self, request, format=None):\n        response_obj = ['hello', 'how you', 'what']\n        return Response({'message' : 'Success', 'obj' : response_obj})\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)\n        if serializer.is_valid():\n            name = serializer.validated_data.get('name')\n            message = f'hello {name }'",
         "detail": "myApi.views",
         "documentation": {}
     },
@@ -426,6 +653,96 @@
         "description": "profiles.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "profiles.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "SQL_DATABASE_URL",
+        "kind": 5,
+        "importPath": "TODO.database",
+        "description": "TODO.database",
+        "peekOfCode": "SQL_DATABASE_URL = \"sqlite:///./todos.db\"\nengine = create_engine(SQL_DATABASE_URL, connect_args ={ \"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush = False, bind = engine)\nBase = declarative_base()",
+        "detail": "TODO.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "TODO.database",
+        "description": "TODO.database",
+        "peekOfCode": "engine = create_engine(SQL_DATABASE_URL, connect_args ={ \"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush = False, bind = engine)\nBase = declarative_base()",
+        "detail": "TODO.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "TODO.database",
+        "description": "TODO.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush = False, bind = engine)\nBase = declarative_base()",
+        "detail": "TODO.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "TODO.database",
+        "description": "TODO.database",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "TODO.database",
+        "documentation": {}
+    },
+    {
+        "label": "TodosRequest",
+        "kind": 6,
+        "importPath": "TODO.main",
+        "description": "TODO.main",
+        "peekOfCode": "class TodosRequest(BaseModel):\n    title :str = Field(min_length=3)\n    description :str = Field(min_length= 5, max_length=100)\n    priority : int = Field (gt=0, lt=6)\n    complete :bool\n@app.get('/', status_code= status.HTTP_200_OK)\nasync def get_all(db : db_dependency ):\n    return db.query(Todos).all()\n@app.get('/todos/{id}', status_code= status.HTTP_200_OK)\nasync def get_record(db : db_dependency, id : int = Path(gt=0)):",
+        "detail": "TODO.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "TODO.main",
+        "description": "TODO.main",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally :\n        db.close()\ndb_dependency = Annotated[Session, Depends(get_db)]\nclass TodosRequest(BaseModel):\n    title :str = Field(min_length=3)\n    description :str = Field(min_length= 5, max_length=100)",
+        "detail": "TODO.main",
+        "documentation": {}
+    },
+    {
+        "label": "update_record",
+        "kind": 2,
+        "importPath": "TODO.main",
+        "description": "TODO.main",
+        "peekOfCode": "def update_record(db : db_dependency, new_record : TodosRequest, id : int = Path(gt=0)):\n    todo_modal = db.query(Todos).filter(Todos.id == id).first()\n    if todo_modal is None:\n        raise HTTPException(status_code=404, detail=\"detail requested not found\")\n    todo_modal.title = new_record.title\n    todo_modal.description = new_record.description\n    todo_modal.priority = new_record.priority\n    todo_modal.complete = new_record.complete\n    db.add(todo_modal)\n    db.commit()",
+        "detail": "TODO.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "TODO.main",
+        "description": "TODO.main",
+        "peekOfCode": "app = FastAPI()\nmodels.Base.metadata.create_all(bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally :\n        db.close()\ndb_dependency = Annotated[Session, Depends(get_db)]\nclass TodosRequest(BaseModel):",
+        "detail": "TODO.main",
+        "documentation": {}
+    },
+    {
+        "label": "db_dependency",
+        "kind": 5,
+        "importPath": "TODO.main",
+        "description": "TODO.main",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nclass TodosRequest(BaseModel):\n    title :str = Field(min_length=3)\n    description :str = Field(min_length= 5, max_length=100)\n    priority : int = Field (gt=0, lt=6)\n    complete :bool\n@app.get('/', status_code= status.HTTP_200_OK)\nasync def get_all(db : db_dependency ):\n    return db.query(Todos).all()\n@app.get('/todos/{id}', status_code= status.HTTP_200_OK)",
+        "detail": "TODO.main",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "kind": 6,
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "peekOfCode": "class Todos(Base):\n    __tablename__ = 'todos'\n    id = Column(Integer,primary_key = True,index=True)\n    title = Column(String)\n    description = Column(String)\n    priority = Column(Integer)\n    complete = Column(Boolean, default = False)",
+        "detail": "TODO.models",
         "documentation": {}
     },
     {
